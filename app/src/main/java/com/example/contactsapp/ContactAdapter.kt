@@ -35,4 +35,6 @@ class ContactAdapter(private val contacts: MutableList<Contact>, private val lis
     interface OnContactClickListener {
         fun onContactClick(contact: Contact)
     }
+
+    // D1
 }
